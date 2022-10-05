@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
+        // Configurando cliques de botões
         binding.buttonProjectionMAIN.setOnClickListener{
             startActivity( Intent(this, ProjectionActivity::class.java) )
         }
