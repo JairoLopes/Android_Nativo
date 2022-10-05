@@ -1,2 +1,2 @@
 # Android_Nativo
-Meus projetos Android
+Local onde se encontra meus projetos pessoais em android nativo com kotlin.
