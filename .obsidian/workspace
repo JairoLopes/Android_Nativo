@@ -1,0 +1,137 @@
+{
+  "main": {
+    "id": "ca51491ccb65d9f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "e91b12eafe03cd66",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Projeto_ToolCoin/Readme.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e4fa55e4dbdd1ec4",
+    "type": "split",
+    "children": [
+      {
+        "id": "68be610c907a1470",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "144f856e9f569068",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a95d4bf271e13cfc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4465860ec70eb001",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6db88739a567734f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0425c2dfa6f9299",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35b33d77e6fa4f38",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Projeto_ToolCoin/Readme.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7195a8b9bfdb6a08",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Projeto_ToolCoin/Readme.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0fc100d473092220",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "91e39c5fc671d2a6",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Projeto_ToolCoin/Readme.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e91b12eafe03cd66",
+  "lastOpenFiles": [
+    "Projeto_ToolCoin/Img/toocoin_img_apr.png",
+    "Projeto_ToolCoin/Readme.md",
+    "README.md"
+  ]
+}
