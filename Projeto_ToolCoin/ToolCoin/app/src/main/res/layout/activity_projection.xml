@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProjectionActivity">
+    tools:context=".ProjectionActivity"
+    android:background="@drawable/bg">
 
     <View
         android:id="@+id/viewHeaderPROJECTION"
@@ -13,19 +14,8 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="0dp"
         android:layout_height="60dp"
-        android:background="@color/blueHard"
         />
-    <ImageButton
-        android:id="@+id/buttonArrowBackPROJECTION"
-        app:layout_constraintTop_toTopOf="@+id/viewHeaderPROJECTION"
-        app:layout_constraintBottom_toBottomOf="@+id/viewHeaderPROJECTION"
-        app:layout_constraintStart_toStartOf="@id/viewHeaderPROJECTION"
-        android:layout_marginStart="2dp"
-        android:layout_width="45dp"
-        android:layout_height="45dp"
-        android:src="@drawable/ic_button_arrow_back"
-        android:backgroundTint="@color/blueHard"
-    />
+
     <TextView
         android:id="@+id/textHeadPROJECTION"
         app:layout_constraintStart_toStartOf="@+id/viewHeaderPROJECTION"
@@ -50,6 +40,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:textColor="@color/white"
         />
     <EditText
         android:id="@+id/editPricePROJECTION"
@@ -61,6 +52,9 @@
         android:hint="@string/money"
         android:inputType="numberDecimal"
         android:layout_marginEnd="16dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
         />
     <TextView
         android:id="@+id/textInvestmentPROJECTION"
@@ -73,6 +67,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:textColor="@color/white"
         />
     <EditText
         android:id="@+id/editInvestmentPROJECTION"
@@ -84,6 +79,9 @@
         android:layout_marginEnd="16dp"
         android:hint="@string/money"
         android:inputType="numberDecimal"
+        android:backgroundTint="@color/white"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
         />
     <TextView
         android:id="@+id/textProjectionPROJECTION"
@@ -96,6 +94,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
+        android:textColor="@color/white"
         />
     <EditText
         android:id="@+id/editProjectionPROJECTION"
@@ -107,6 +106,9 @@
         android:layout_marginEnd="16dp"
         android:hint="@string/money"
         android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
         />
     <Button
         android:id="@+id/buttonClearPROJECTION"
@@ -117,7 +119,7 @@
         app:layout_constraintTop_toTopOf="@id/buttonProjectionPROJECTION"
         app:layout_constraintBottom_toBottomOf="@id/buttonProjectionPROJECTION"
         app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="@color/blueHard"
+        android:backgroundTint="@color/greyHard"
         android:textColor="@color/white"
         android:layout_marginStart="16dp"
         />
@@ -132,7 +134,7 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
-        android:backgroundTint="@color/blueHard"
+        android:backgroundTint="@color/greyHard"
         android:textColor="@color/white"
         />
     <View
@@ -155,6 +157,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="18sp"
         android:layout_marginTop="25dp"
+        android:textColor="@color/white"
         />
     <View
         android:id="@+id/viewDivisor1PROJECTION"
@@ -177,6 +180,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         />
     <TextView
         android:id="@+id/textSupplyPROJECTION"
@@ -188,6 +192,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="18sp"
         android:layout_marginTop="30dp"
+        android:textColor="@color/white"
         />
     <View
         android:id="@+id/viewDivisor2PROJECTION"
@@ -210,6 +215,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         />
     <TextView
         android:id="@+id/textProfitPROJECTION"
@@ -221,6 +227,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="18sp"
         android:layout_marginTop="30dp"
+        android:textColor="@color/white"
         />
     <View
         android:id="@+id/viewDivisor3PROJECTION"
@@ -243,6 +250,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         />
     <TextView
         android:id="@+id/textPatrimonyPROJECTION"
@@ -254,6 +262,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="18sp"
         android:layout_marginTop="30dp"
+        android:textColor="@color/white"
         />
     <View
         android:id="@+id/viewDivisor4PROJECTION"
@@ -276,5 +285,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/white"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>

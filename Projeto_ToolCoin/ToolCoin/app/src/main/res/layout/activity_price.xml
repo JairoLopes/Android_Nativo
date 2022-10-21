@@ -5,14 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PriceActivity"
-    android:background="@color/blueHard"
+    android:background="@drawable/bg"
     android:padding="10dp"
     >
     <View
         android:id="@+id/viewCabecalhoCotacao"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:background="@color/blueHard"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -45,7 +44,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="50dp"
-        android:background="@color/blueHard"
         />
     <TextView
         android:id="@+id/textInvestValuePRICE"
@@ -103,13 +101,13 @@
         android:id="@+id/buttonCalculatePRICE"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textColor="@color/blueHard"
+        android:textColor="@color/white"
         android:text="@string/calculate"
         app:layout_constraintTop_toBottomOf="@id/editSupplyPRICE"
         app:layout_constraintStart_toStartOf="@id/viewMenuPRICE"
         app:layout_constraintEnd_toEndOf="@id/viewMenuPRICE"
         android:layout_marginTop="20dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/greyHard"
         android:inputType="numberDecimal"
         tools:ignore="TextViewEdits" />
     <TextView

@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blueHard">#9966ff</color>
     <color name="grey">#4d4d4d</color>
+    <color name="purpleEasy">#9966ff</color>
+    <color name="greyHard">#262626</color>
 </resources>

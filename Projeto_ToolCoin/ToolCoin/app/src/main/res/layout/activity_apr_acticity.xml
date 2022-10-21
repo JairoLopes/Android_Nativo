@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AprActicity"
-    android:background="@color/blueHard"
+    android:background="@drawable/bg"
     android:padding="16dp"
     >
 
@@ -44,6 +44,7 @@
         android:backgroundTint="@color/white"
         android:textColor="@color/white"
         android:hint="@string/money"
+        android:textColorHint="@color/white"
         />
 
     <TextView
@@ -81,6 +82,7 @@
         android:textColor="@color/white"
         android:hint="00"
         android:layout_marginTop="10dp"
+        android:textColorHint="@color/white"
         />
 
     <Button
@@ -91,9 +93,9 @@
         app:layout_constraintStart_toStartOf="@id/editAprAPR"
         app:layout_constraintEnd_toStartOf="@id/buttonCalculateAPR"
         android:layout_marginEnd="16dp"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/greyHard"
         android:text="@string/clean"
-        android:textColor="@color/blueHard"
+        android:textColor="@color/white"
         android:layout_marginTop="16dp"
         android:padding="3dp"
         />
@@ -105,9 +107,9 @@
         app:layout_constraintTop_toTopOf="@id/buttonClearAPR"
         app:layout_constraintStart_toEndOf="@id/buttonClearAPR"
         app:layout_constraintEnd_toEndOf="@id/editAprAPR"
-        android:backgroundTint="@color/white"
+        android:backgroundTint="@color/greyHard"
         android:text="@string/calculate"
-        android:textColor="@color/blueHard"
+        android:textColor="@color/white"
         android:padding="3dp"
         />
     <View
