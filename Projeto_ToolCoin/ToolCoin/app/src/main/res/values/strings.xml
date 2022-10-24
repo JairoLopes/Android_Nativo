@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">ToolCoin</string>
-    <string name="ready">Vamos começar?</string>
+    <string name="ready">Calcule seus lucros</string>
     <string name="Text_chooseOptions">Escolha entre as opções abaixo</string>
     <string name="buttonProjection_Main">PROJETAR</string>
     <string name="buttonText_APR">APR</string>
-    <string name="buttonText_price">Cotacão</string>
+    <string name="buttonText_price">Cotação</string>
     <string name="text_dev_JairoLopes">Desenvolvido por: Jairo Lopes</string>
     <string name="TitleHeader_Projection">PROJEÇÃO</string>
     <string name="text_price">Cotação de quando comprou</string>
@@ -35,4 +35,5 @@
     <string name="PriceInTheMoment">Cotação no momento da compra</string>
     <string name="waitValue">- - -</string>
     <string name="popupAlert">Preencha todos os campos!</string>
+    <string name="toolcoin">ToolCoin</string>
 </resources>

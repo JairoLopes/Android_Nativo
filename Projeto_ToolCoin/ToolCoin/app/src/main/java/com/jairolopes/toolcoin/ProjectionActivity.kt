@@ -45,9 +45,7 @@ class ProjectionActivity : AppCompatActivity(){
             binding.textResultProfitPROJECTION.text = "$ 00.00"
             binding.textResultPatrimonyPROJECTION.text = "$ 00.00"
         }
-        binding.buttonArrowBackPROJECTION.setOnClickListener{
-            startActivity( Intent(this, MainActivity::class.java) )
-        }
+
     }
     private fun validate():Boolean{
         return (binding.editPricePROJECTION.text.toString() != "" &&
