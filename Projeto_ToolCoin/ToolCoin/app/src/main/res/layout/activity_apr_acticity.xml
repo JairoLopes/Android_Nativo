@@ -85,7 +85,7 @@
         android:textColorHint="@color/white"
         />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonClearAPR"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -93,13 +93,13 @@
         app:layout_constraintStart_toStartOf="@id/editAprAPR"
         app:layout_constraintEnd_toStartOf="@id/buttonCalculateAPR"
         android:layout_marginEnd="16dp"
-        android:backgroundTint="@color/greyHard"
+        android:background="@drawable/bg2"
         android:text="@string/clean"
         android:textColor="@color/white"
         android:layout_marginTop="16dp"
         android:padding="3dp"
         />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonCalculateAPR"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
         app:layout_constraintTop_toTopOf="@id/buttonClearAPR"
         app:layout_constraintStart_toEndOf="@id/buttonClearAPR"
         app:layout_constraintEnd_toEndOf="@id/editAprAPR"
-        android:backgroundTint="@color/greyHard"
+        android:background="@drawable/bg2"
         android:text="@string/calculate"
         android:textColor="@color/white"
         android:padding="3dp"

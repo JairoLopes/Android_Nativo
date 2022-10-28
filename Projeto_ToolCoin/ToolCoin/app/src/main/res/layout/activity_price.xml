@@ -97,7 +97,7 @@
         android:inputType="numberDecimal"
         android:backgroundTint="@color/white"
         />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonCalculatePRICE"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
         app:layout_constraintStart_toStartOf="@id/viewMenuPRICE"
         app:layout_constraintEnd_toEndOf="@id/viewMenuPRICE"
         android:layout_marginTop="20dp"
-        android:backgroundTint="@color/greyHard"
+        android:background="@drawable/bg2"
         android:inputType="numberDecimal"
         tools:ignore="TextViewEdits" />
     <TextView

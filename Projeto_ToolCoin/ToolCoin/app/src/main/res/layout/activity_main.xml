@@ -56,7 +56,7 @@
         app:layout_constraintEnd_toEndOf="@+id/textHeadMAIN"
         android:layout_marginTop="18dp"
         />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonProjectionMAIN"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -65,11 +65,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/buttonAprsMAIN"
         android:layout_marginEnd="7dp"
-        android:backgroundTint="@color/greyHard"
+        android:background="@drawable/bg2"
         android:text="@string/buttonProjection_Main"
         android:textColor="@color/white"
         />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonAprsMAIN"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -77,11 +77,11 @@
         app:layout_constraintTop_toTopOf="@+id/buttonProjectionMAIN"
         app:layout_constraintBottom_toBottomOf="@id/buttonProjectionMAIN"
         app:layout_constraintEnd_toEndOf="@+id/buttonPriceMAIN"
-        android:backgroundTint="@color/greyHard"
+        android:background="@drawable/bg2"
         android:textColor="@color/white"
         android:text="@string/buttonText_APR"
         />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonPriceMAIN"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -91,7 +91,7 @@
         app:layout_constraintBottom_toBottomOf="@id/buttonAprsMAIN"
         app:layout_constraintTop_toTopOf="@+id/buttonAprsMAIN"
         android:layout_marginStart="7dp"
-        android:backgroundTint="@color/greyHard"
+        android:background="@drawable/bg2"
         android:textColor="@color/white"
         />
     <TextView

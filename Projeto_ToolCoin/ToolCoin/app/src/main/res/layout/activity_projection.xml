@@ -110,7 +110,7 @@
         android:textColorHint="@color/white"
         android:backgroundTint="@color/white"
         />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonClearPROJECTION"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -119,11 +119,11 @@
         app:layout_constraintTop_toTopOf="@id/buttonProjectionPROJECTION"
         app:layout_constraintBottom_toBottomOf="@id/buttonProjectionPROJECTION"
         app:layout_constraintStart_toStartOf="parent"
-        android:backgroundTint="@color/greyHard"
+        android:background="@drawable/bg2"
         android:textColor="@color/white"
         android:layout_marginStart="16dp"
         />
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonProjectionPROJECTION"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -134,18 +134,19 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
-        android:backgroundTint="@color/greyHard"
+        android:background="@drawable/bg2"
         android:textColor="@color/white"
+
         />
     <View
         android:id="@+id/viewCabecalho"
         android:layout_width="0dp"
-        android:layout_height="2dp"
+        android:layout_height="0dp"
         app:layout_constraintTop_toBottomOf="@+id/buttonProjectionPROJECTION"
         app:layout_constraintStart_toStartOf="@+id/buttonClearPROJECTION"
         app:layout_constraintEnd_toEndOf="@id/buttonProjectionPROJECTION"
         android:layout_marginTop="5dp"
-        android:background="#DADADA"
+        android:background="@color/white"
         />
     <TextView
         android:id="@+id/textPercentPROJECTION"
